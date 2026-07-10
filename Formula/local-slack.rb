@@ -7,22 +7,22 @@ class LocalSlack < Formula
   on_macos do
     on_arm do
       url "https://github.com/parvalabs/local-slack/releases/download/v0.1.0/local-slack-darwin-arm64.tar.gz"
-      sha256 "6d8aebdf52847f2d18d9e2bb7f917591b4c4acfc71932f173884b6a25098653b"
+      sha256 "36200e13761114f144c61f16a601f5aecc2bca1c90350366cf84363794f8ba8d"
     end
     on_intel do
       url "https://github.com/parvalabs/local-slack/releases/download/v0.1.0/local-slack-darwin-x64.tar.gz"
-      sha256 "645ab586e8256da8b86c8034487ed4f951008801ae1604a755ceb0bfdd7d3dcf"
+      sha256 "d8611b4713db296b7a0c84d06e938e902ae8ec2c8e1c275c3e4613daea529819"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/parvalabs/local-slack/releases/download/v0.1.0/local-slack-linux-arm64.tar.gz"
-      sha256 "3fcfce6b3746a9ccbdf4fedd054499008906f4266459083d476ea1491bd48845"
+      sha256 "4224af3db09ec4257da3567a66c3c65f5567f435a2bea137e883a6e789ad855b"
     end
     on_intel do
       url "https://github.com/parvalabs/local-slack/releases/download/v0.1.0/local-slack-linux-x64.tar.gz"
-      sha256 "8a1490d8d611cf08703c00dd7436565fd7c44cd29f2347ca8a8974ad69395cb6"
+      sha256 "3c6a7b13026310a5249f0a9ba1f28a21a53470648824d969a0b4268fe0b63ab5"
     end
   end
 
